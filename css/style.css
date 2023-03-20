@@ -159,38 +159,20 @@ figure {
 }
 
 ::-webkit-selection {
-  color: #fff;
-  background-image: linear-gradient(to right,
-      #b29b5d 0,
-      #f3d38c 30%,
-      #b29b5d 60%,
-      #f3d38c 80%,
-      #b29b5d 100%) !important;
-  color: transparent !important;
+  color: white;
+  background: #b29b5d;
   -webkit-background-clip: text !important;
 }
 
 ::-moz-selection {
-  color: #fff;
-  background-image: linear-gradient(to right,
-      #b29b5d 0,
-      #f3d38c 30%,
-      #b29b5d 60%,
-      #f3d38c 80%,
-      #b29b5d 100%) !important;
-  color: transparent !important;
+  color: white;
+  background: #b29b5d;
   -webkit-background-clip: text !important;
 }
 
 ::selection {
-  color: #fff;
-  background-image: linear-gradient(to right,
-      #b29b5d 0,
-      #f3d38c 30%,
-      #b29b5d 60%,
-      #f3d38c 80%,
-      #b29b5d 100%) !important;
-  color: transparent !important;
+  color: white;
+  background: #b29b5d;
   -webkit-background-clip: text !important;
 }
 
@@ -1856,9 +1838,9 @@ form label {
 }
 
 #fh5co-offcanvas {
+  width: max-content;
   position: absolute;
   z-index: 1901;
-  width: 270px;
   background: black;
   top: 0;
   right: 0;
@@ -1951,6 +1933,7 @@ form label {
 }
 
 .gototop {
+  background-color: lightgoldenrodyellow;
   position: fixed;
   bottom: 20px;
   right: 20px;
