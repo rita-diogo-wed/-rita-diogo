@@ -838,6 +838,7 @@ figure {
   padding: 3%;
   margin: 0;
   width: 100%;
+  justify-content: center;
 }
 
 #fh5co-gallery-list li {
