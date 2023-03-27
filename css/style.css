@@ -1,7 +1,7 @@
 /* Avenir LT STD font */
 @font-face {
   font-family: 'avenir', sans-serif !important;
-  src: url('fonts/avenir.tff') format('truetype');
+  src: url('fonts/avenir.woff') format('truetype');
 }
 
 @media (max-width: 768px) {
