@@ -1,8 +1,10 @@
 /* Avenir LT STD font */
-@font-face {
-  font-family: 'avenir', sans-serif !important;
-  src: url('fonts/avenir.woff') format('truetype');
-}
+
+
+
+
+/* Note: Add additional formats as needed for compatibility with older browsers */
+
 
 @media (max-width: 768px) {
   #fh5co-header {
@@ -70,7 +72,7 @@
 
 body {
   font-family: 'Avenir LT STD', sans-serif !important;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 16px;
   line-height: 1.7;
   color: white;
@@ -154,7 +156,7 @@ h6,
 figure {
   color: #000;
   font-family: 'Avenir LT STD', sans-serif !important;
-  font-weight: 400;
+  font-weight: 100;
 
 }
 
@@ -2094,7 +2096,7 @@ form label {
   margin-bottom: 4px;
   font-family: 'Avenir LT STD', sans-serif !important;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 100;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
